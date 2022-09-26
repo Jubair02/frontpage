@@ -1,0 +1,81 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+     background-image:linear-gradient(rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5)),
+      url(image/refargotohp-do08-18xG8I-unsplash.jpg);
+    
+    background-size: cover;
+    /* background-position: center;  */
+    /* background-color: rgba(46, 203, 145, 0.815) ; */
+       
+    height: 100vh;
+
+
+}
+.unorder__list{
+    float: right;
+    /* text-decoration: none; */
+    margin-top: 3rem;
+    margin-right: 2rem;
+}
+ul li {
+    display: inline-block;
+}
+ul li a{
+     text-decoration: none;
+     color: #fff;
+     padding: .5rem 2rem;
+     border: 1px solid transparent;
+     transition: all .3s ease-out;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+ul li.active a{
+    background-color: rgba(255, 255, 255, 0.818);
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 14rem;
+    height: auto;
+    margin-top: -4rem;
+}
+.main{
+    max-width: 110rem;
+    margin: auto;
+
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.button{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 1rem 3rem;
+    color: #fff;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
